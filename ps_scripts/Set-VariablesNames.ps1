@@ -35,4 +35,3 @@ function Set-VariablesNames {
         }
     }
 }
-Set-VariablesNames -ReplacementString "new_project"

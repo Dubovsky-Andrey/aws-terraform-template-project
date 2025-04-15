@@ -17,3 +17,18 @@ variable "environment" {
   description = "Deployment environment (e.g. stage, prod)"
   type        = string
 }
+
+variable "enable_encryption" {
+  description = "Enable server-side encryption for the bucket"
+  type        = bool
+}
+
+variable "encryption_algorithm" {
+  description = "The server-side encryption algorithm to use (e.g., AES256 or aws:kms)"
+  type        = string
+}
+
+variable "versioning_enabled" {
+  description = "Enable versioning for the bucket"
+  type        = bool
+}

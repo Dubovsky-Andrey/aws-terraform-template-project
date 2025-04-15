@@ -4,7 +4,7 @@ module "s3_bucket" {
   project_name = var.project_name
   environment  = var.environment
   versioning = {
-    enabled = var.versioning
+    enabled = var.versioning_enabled
   }
   enable_encryption    = var.enable_encryption
   encryption_algorithm = var.encryption_algorithm
