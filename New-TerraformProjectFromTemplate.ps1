@@ -29,4 +29,4 @@ function New-TerraformProjectFromTemplate {
 }
 
 # Example usage:
-New-TerraformProjectFromTemplate -ProjectName "aws-ec2-simple"
+New-TerraformProjectFromTemplate -ProjectName "my-project"
